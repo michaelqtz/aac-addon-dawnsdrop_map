@@ -142,7 +142,24 @@ local function OnLoad()
 		categoryList:SetItemTrees(doodadListTable)
     end 
 
-	dawnsdropMapWindow:Show(true)
+	-- Create an overlay button
+	local overlayWnd = api.Interface:CreateEmptyWindow("overlayWnd", "UIParent")
+	local overlayBtn = overlayWnd:CreateChildWidget("button", "overlayBtn", 0, true)
+    ApplyButtonSkin(overlayBtn, BUTTON_BASIC.DEFAULT)
+    overlayBtn:SetExtent(100, 32)
+    overlayBtn:SetText("Dawnsdrop Map")
+    overlayBtn.style:SetFontSize(13)
+    overlayBtn:Show(true)
+    overlayBtn:AddAnchor("TOPRIGHT", "UIParent", -450, 0)
+    function overlayBtn:OnClick()
+        local showWnd = not dawnsdropMapWindow:IsVisible()
+        dawnsdropMapWindow:Show(showWnd)
+    end 
+    overlayBtn:SetHandler("OnClick", overlayBtn.OnClick)
+	overlayWnd:Show(true)
+    overlayWnd.overlayBtn = overlayBtn
+
+	dawnsdropMapWindow:Show(false)
 
     api.On("UPDATE", OnUpdate)
 	api.SaveSettings()
