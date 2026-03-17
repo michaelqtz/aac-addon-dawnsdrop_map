@@ -3,7 +3,7 @@ local doodadsHelper = require("dawnsdrop_map/data/doodads")
 local dawnsdrop_map_addon = {
 	name = "Dawnsdrop Map",
 	author = "Michaelqt",
-	version = "1.0",
+	version = "1.1.0",
 	desc = "Maps for all wild plants and sunken chests."
 }
 

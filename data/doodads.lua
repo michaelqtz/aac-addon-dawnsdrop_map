@@ -55,6 +55,18 @@ doodadsHelper.zoneNames = {
     ["golden_ruins"] = "Golden Ruins",
     ["falcorth_plains"] = "Falcorth Plains",
     ["ahnimar"] = "Ahnimar",
+    ["exeloch"] = "Exeloch",
+    ["sungold_fields"] = "Sungold Fields",
+    ["diamond_shores"] = "Diamond Shores",
+    ["caernord"] = "Caernord",
+    ["city_of_towers"] = "City of Towers",
+    ["red_moss_cave"] = "Red Moss Cave",
+    ["memoria"] = "Memoria",
+    ["marianople_city"] = "Marianople City",
+    ["crescent_throne"] = "Crescent Throne",
+    ["east_ronbann_mine"] = "East Ronbann Mine",
+    ["west_ronbann_mine"] = "West Ronbann Mine",
+    ["ezna"] = "Ezna",
 }
 
 doodadsHelper.zoneKeys = {
@@ -103,6 +115,19 @@ doodadsHelper.zoneKeys = {
     ["Golden Ruins"]  = "golden_ruins",
     ["Falcorth Plains"] = "falcorth_plains",
     ["Ahnimar"] = "ahnimar",
+    ["Exeloch"] = "exeloch",
+    ["Sungold Fields"] = "sungold_fields",
+    ["Diamond Shores"] = "diamond_shores",
+    ["Caernord"] = "caernord",
+    ["City of Towers"] = "city_of_towers",
+    ["Red Moss Cave"] = "red_moss_cave",
+    ["Memoria"] = "memoria",
+    ["Marianople City"] = "marianople_city",
+    ["Crescent Throne"] = "crescent_throne",
+    ["East Ronbann Mine"] = "east_ronbann_mine",
+    ["West Ronbann Mine"] = "west_ronbann_mine",
+    ["Ezna"] = "ezna",
+    
 }
 
 doodadsHelper.names = {
@@ -203,6 +228,8 @@ doodadsHelper.names = {
     [3484] = "Sunken Treasure Chest",
     [6438] = "Old Jar",
     [6340] = "Old Relic Container",
+    [5259] = "Explorer's Bag",
+    [9009] = "Explorer's Bag (Auroria)",
 
     -- Auroria Resources
     [3301] = "Mineral Water",
@@ -296,6 +323,9 @@ doodadsHelper.zones = {
     [3484] = {"castaway_strait", "arcadian_sea", "halcyona_gulf", "feuille_sound", "sunspeck_sea", "stormraw_sound", "whaleswell_straits"},
     [3301] = {"heedmar", "nuimari",},
     [8454] = {"marcala", "calmlands",},
+
+    [5259] = {"gweonid_forest", "marianople", "dewstone_plains", "solis_headlands", "solzreed_peninsula", "lilyut_hills", "two_crowns", "mahadevi", "windscour_savannah", "ynystere", "white_arden", "karkasse_ridgelands", "cinderstone_moor", "halcyona", "silent_forest", "hellswamp", "sanddeep", "castaway_strait", "arcadian_sea", "feuille_sound", "sunspeck_sea", "stormraw_sound", "memoria", "marianople_city", "crescent_throne", "east_ronbann_mine", "west_ronbann_mine", "ezna", "city_of_towers", "caernord", "red_moss_cave",},
+    [9009] = {"heedmar", "nuimari", "marcala", "calmlands", "exeloch", "sungold_fields", "golden_ruins", "diamond_shores",},
 }
 
 doodadsHelper.categories = {
@@ -398,6 +428,8 @@ doodadsHelper.doodadsCategory = {
     [3484] = 6, -- Exploration
     [6438] = 6, -- Exploration
     [6340] = 6, -- Exploration
+    [5259] = 6, -- Exploration
+    [9009] = 6,
 
     [3301] = 7, -- Auroria Resources
     [8454] = 7, -- Auroria Resources
