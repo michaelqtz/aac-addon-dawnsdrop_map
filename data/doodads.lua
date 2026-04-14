@@ -224,6 +224,9 @@ doodadsHelper.names = {
 
     [2758] = "Black Pepper",
 
+    [4407] = "Red Flower",
+    [4408] = "Blue Flower",
+
     -- Exploration
     [3484] = "Sunken Treasure Chest",
     [6438] = "Old Jar",
@@ -318,6 +321,9 @@ doodadsHelper.zones = {
     [414] = {"dewstone_plains", "solis_headlands", "solzreed_peninsula"},
     [2246] = {"villanelle", "aubre_cradle", "halcyona"},
     [2248] = {"dewstone_plains", "falcorth_plains", "rookborne_basin"},
+    [4407] = {"perinoor_ruins"},
+    [4408] = {"perinoor_ruins"},
+
 
     [3511] = {"sanddeep", "castaway_strait", "arcadian_sea", "sunspeck_sea", "stormraw_sound", "sea_of_graves", "freedich_island"},
     [3484] = {"castaway_strait", "arcadian_sea", "halcyona_gulf", "feuille_sound", "sunspeck_sea", "stormraw_sound", "whaleswell_straits"},
@@ -425,11 +431,14 @@ doodadsHelper.doodadsCategory = {
 
     [2758] = 5, -- Gathering
 
+    [4407] = 5, -- Gathering
+    [4408] = 5, -- Gathering 
+
     [3484] = 6, -- Exploration
     [6438] = 6, -- Exploration
     [6340] = 6, -- Exploration
     [5259] = 6, -- Exploration
-    [9009] = 6,
+    [9009] = 6, -- Exploration
 
     [3301] = 7, -- Auroria Resources
     [8454] = 7, -- Auroria Resources
