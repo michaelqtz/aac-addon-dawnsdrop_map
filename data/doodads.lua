@@ -126,6 +126,10 @@ doodadsHelper.zoneKeys = {
     ["Crescent Throne"] = "crescent_throne",
     ["East Ronbann Mine"] = "east_ronbann_mine",
     ["West Ronbann Mine"] = "west_ronbann_mine",
+    ["Astra Cavern"] = "astra_cavern",
+    ["Bleakbreath Cave"] = "bleakbreath_cave",
+    ["Darkeflight Cavern"] = "darkeflight_cavern",
+    ["Gnawbones Cave"] = "gnawbones_cave",
     ["Ezna"] = "ezna",
     
 }
@@ -238,6 +242,9 @@ doodadsHelper.names = {
     [3301] = "Mineral Water",
     [8454] = "Burning Log",
     [99991] = "Mysterious Crate", 
+
+    -- Mining
+    [1671] = "Iron Vein",
 }
 
 doodadsHelper.zones = {
@@ -332,6 +339,8 @@ doodadsHelper.zones = {
 
     [5259] = {"gweonid_forest", "marianople", "dewstone_plains", "solis_headlands", "solzreed_peninsula", "lilyut_hills", "two_crowns", "mahadevi", "windscour_savannah", "ynystere", "white_arden", "karkasse_ridgelands", "cinderstone_moor", "halcyona", "silent_forest", "hellswamp", "sanddeep", "castaway_strait", "arcadian_sea", "feuille_sound", "sunspeck_sea", "stormraw_sound", "memoria", "marianople_city", "crescent_throne", "east_ronbann_mine", "west_ronbann_mine", "ezna", "city_of_towers", "caernord", "red_moss_cave",},
     [9009] = {"heedmar", "nuimari", "marcala", "calmlands", "exeloch", "sungold_fields", "golden_ruins", "diamond_shores",},
+
+    [1671] = {"gweonid_forest", "dewstone_plains", "solis_headlands", "solzreed_peninsula", "lilyut_hills", "arcum_iris", "two_crowns", "mahadevi", "falcorth_plains", "sunbite_wilds", "rookborne_basin", "ynystere", "white_arden", "cinderstone_moor", "aubre_cradle", "halcyona", "tigerspine_mountains", "silent_forest", "sanddeep", "rokhala_mountains", "eastern_ronbann_mine", "western_ronbann_mine", "astra_cavern", "bleakbreath_cave", "darkeflight_cavern", "red_moss_cave", "gnawbones_cave"},
 }
 
 doodadsHelper.categories = {
@@ -342,6 +351,7 @@ doodadsHelper.categories = {
     "Gathering",
     "Exploration",
     "Auroria Resources",
+    "Mining",
 }
 
 doodadsHelper.doodadsCategory = {
@@ -443,6 +453,8 @@ doodadsHelper.doodadsCategory = {
     [3301] = 7, -- Auroria Resources
     [8454] = 7, -- Auroria Resources
     [99991] = 7, -- Auroria Resources
+
+    [1671] = 8, -- Mining
 }
 
 function doodadsHelper:GetDoodadName(doodadId)
