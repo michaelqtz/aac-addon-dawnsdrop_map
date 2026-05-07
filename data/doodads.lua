@@ -66,6 +66,10 @@ doodadsHelper.zoneNames = {
     ["crescent_throne"] = "Crescent Throne",
     ["east_ronbann_mine"] = "East Ronbann Mine",
     ["west_ronbann_mine"] = "West Ronbann Mine",
+    ["astra_cavern"] = "Astra Cavern",
+    ["bleakbreath_cave"] = "Bleakbreath Cave",
+    ["darkeflight_cavern"] = "Darkeflight Cavern",
+    ["gnawbones_cave"] = "Gnawbones Cave",
     ["ezna"] = "Ezna",
 }
 
@@ -340,7 +344,7 @@ doodadsHelper.zones = {
     [5259] = {"gweonid_forest", "marianople", "dewstone_plains", "solis_headlands", "solzreed_peninsula", "lilyut_hills", "two_crowns", "mahadevi", "windscour_savannah", "ynystere", "white_arden", "karkasse_ridgelands", "cinderstone_moor", "halcyona", "silent_forest", "hellswamp", "sanddeep", "castaway_strait", "arcadian_sea", "feuille_sound", "sunspeck_sea", "stormraw_sound", "memoria", "marianople_city", "crescent_throne", "east_ronbann_mine", "west_ronbann_mine", "ezna", "city_of_towers", "caernord", "red_moss_cave",},
     [9009] = {"heedmar", "nuimari", "marcala", "calmlands", "exeloch", "sungold_fields", "golden_ruins", "diamond_shores",},
 
-    [1671] = {"gweonid_forest", "dewstone_plains", "solis_headlands", "solzreed_peninsula", "lilyut_hills", "arcum_iris", "two_crowns", "mahadevi", "falcorth_plains", "sunbite_wilds", "rookborne_basin", "ynystere", "white_arden", "cinderstone_moor", "aubre_cradle", "halcyona", "tigerspine_mountains", "silent_forest", "sanddeep", "rokhala_mountains", "eastern_ronbann_mine", "western_ronbann_mine", "astra_cavern", "bleakbreath_cave", "darkeflight_cavern", "red_moss_cave", "gnawbones_cave"},
+    [1671] = {"gweonid_forest", "dewstone_plains", "solis_headlands", "solzreed_peninsula", "lilyut_hills", "arcum_iris", "two_crowns", "mahadevi", "falcorth_plains", "sunbite_wilds", "rookborne_basin", "ynystere", "white_arden", "cinderstone_moor", "aubre_cradle", "halcyona", "tigerspine_mountains", "silent_forest", "sanddeep", "rokhala_mountains", "east_ronbann_mine", "west_ronbann_mine", "astra_cavern", "bleakbreath_cave", "darkeflight_cavern", "red_moss_cave", "gnawbones_cave"},
 }
 
 doodadsHelper.categories = {
